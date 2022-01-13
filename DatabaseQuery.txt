@@ -1,0 +1,25 @@
+CREATE DATABASE [WebAgendaDB]
+
+USE WebAgendaDB
+
+
+CREATE TABLE [Contacts] (
+    [ID] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [PhoneNumber] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NULL,
+    [BirthDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Contacts] PRIMARY KEY ([ID])
+);
+
+
+
+CREATE TABLE [ErrorLogs] (
+    [Id] int NOT NULL IDENTITY,
+    [Date] datetime2 NOT NULL,
+    [Details] nvarchar(max) NULL,
+    [SystemMessage] nvarchar(max) NULL,
+    [StackTrace] nvarchar(max) NULL,
+    CONSTRAINT [PK_ErrorLogs] PRIMARY KEY ([Id])
+);
