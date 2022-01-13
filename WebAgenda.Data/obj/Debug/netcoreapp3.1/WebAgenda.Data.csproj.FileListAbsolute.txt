@@ -1,0 +1,15 @@
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\bin\Debug\netcoreapp3.1\WebAgenda.Data.deps.json
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\bin\Debug\netcoreapp3.1\WebAgenda.Data.dll
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\bin\Debug\netcoreapp3.1\WebAgenda.Data.pdb
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\bin\Debug\netcoreapp3.1\WebAgenda.Domain.dll
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\bin\Debug\netcoreapp3.1\WebAgenda.Domain.pdb
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\obj\Debug\netcoreapp3.1\WebAgenda.Data.csproj.AssemblyReference.cache
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\obj\Debug\netcoreapp3.1\WebAgenda.Data.AssemblyInfoInputs.cache
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\obj\Debug\netcoreapp3.1\WebAgenda.Data.AssemblyInfo.cs
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\obj\Debug\netcoreapp3.1\WebAgenda.Data.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\obj\Debug\netcoreapp3.1\WebAgenda.Data.csproj.CopyComplete
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\obj\Debug\netcoreapp3.1\WebAgenda.Data.dll
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\obj\Debug\netcoreapp3.1\WebAgenda.Data.pdb
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\bin\Debug\netcoreapp3.1\WebAgenda.Data.runtimeconfig.json
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\bin\Debug\netcoreapp3.1\WebAgenda.Data.runtimeconfig.dev.json
+C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Data\obj\Debug\netcoreapp3.1\WebAgenda.Data.genruntimeconfig.cache

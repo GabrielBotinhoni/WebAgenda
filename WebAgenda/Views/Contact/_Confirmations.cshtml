@@ -1,0 +1,15 @@
+﻿@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success alert-dismissible">
+        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">X</button>
+        @Html.Raw(TempData["Success"].ToString())
+    </div>
+}
+
+@if (TempData["Danger"] != null)
+{
+    <div class="alert alert-danger alert-dismissible">
+        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">X</button>
+        @Html.Raw(TempData["Danger"].ToString())
+    </div>
+}

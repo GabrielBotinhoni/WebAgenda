@@ -1,0 +1,54 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "Detalhes do contato";
+}
+
+
+<div class="body-center">
+    <div class="container-box">
+        <div class="title-form">
+            Detalhes do contato.
+        </div>
+            <div class="form-details">
+                <div class="input-box">
+                    <span class="details">
+                        @Html.DisplayNameFor(itemModel => Model.FirstName):
+                        @Html.DisplayFor(itemModel => Model.FirstName)
+                    </span> 
+                </div>
+
+                <div class="input-box">
+                    <span class="details">
+                        @Html.DisplayNameFor(itemModel => Model.LastName):
+                        @Html.DisplayFor(itemModel => Model.LastName)
+                    </span>
+                </div>
+                <div class="input-box">
+                    <span class="details">
+                        @Html.DisplayNameFor(itemModel => Model.PhoneNumber):
+                        @Html.DisplayFor(itemModel => Model.PhoneNumber)
+                    </span>
+                </div>
+                <div class="input-box">
+                    <span class="details">
+                        @Html.DisplayNameFor(itemModel => Model.Email):
+                        @Html.DisplayFor(itemModel => Model.Email)
+                    </span>
+                </div>
+                <div class="input-box">
+                    <span class="details">
+                        @Html.DisplayNameFor(itemModel => Model.BirthDate):
+                        @Html.DisplayFor(itemModel => Model.BirthDate)
+                    </span>
+                </div>
+            <div class="button">
+                <input type="button" class="back-button" value="Voltar para lista" onclick="@("window.location.href='" + @Url.Action("Index", "Contact") + "'");"  />
+            </div>
+
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/phoneMask.js"></script>
+    <script src="~/js/emailValidation.js"></script>
+}
