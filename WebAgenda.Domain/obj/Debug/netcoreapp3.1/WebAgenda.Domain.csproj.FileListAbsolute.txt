@@ -7,3 +7,12 @@ C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Domain\obj\Debug\netcoreapp
 C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Domain\obj\Debug\netcoreapp3.1\WebAgenda.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Domain\obj\Debug\netcoreapp3.1\WebAgenda.Domain.dll
 C:\Users\Gabriel-PC\source\repos\WebAgenda\WebAgenda.Domain\obj\Debug\netcoreapp3.1\WebAgenda.Domain.pdb
+C:\Users\Gabriel-PC\Documents\ProjetosVS\WebAgenda\WebAgenda.Domain\bin\Debug\netcoreapp3.1\WebAgenda.Domain.deps.json
+C:\Users\Gabriel-PC\Documents\ProjetosVS\WebAgenda\WebAgenda.Domain\bin\Debug\netcoreapp3.1\WebAgenda.Domain.dll
+C:\Users\Gabriel-PC\Documents\ProjetosVS\WebAgenda\WebAgenda.Domain\bin\Debug\netcoreapp3.1\WebAgenda.Domain.pdb
+C:\Users\Gabriel-PC\Documents\ProjetosVS\WebAgenda\WebAgenda.Domain\obj\Debug\netcoreapp3.1\WebAgenda.Domain.csproj.AssemblyReference.cache
+C:\Users\Gabriel-PC\Documents\ProjetosVS\WebAgenda\WebAgenda.Domain\obj\Debug\netcoreapp3.1\WebAgenda.Domain.AssemblyInfoInputs.cache
+C:\Users\Gabriel-PC\Documents\ProjetosVS\WebAgenda\WebAgenda.Domain\obj\Debug\netcoreapp3.1\WebAgenda.Domain.AssemblyInfo.cs
+C:\Users\Gabriel-PC\Documents\ProjetosVS\WebAgenda\WebAgenda.Domain\obj\Debug\netcoreapp3.1\WebAgenda.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel-PC\Documents\ProjetosVS\WebAgenda\WebAgenda.Domain\obj\Debug\netcoreapp3.1\WebAgenda.Domain.dll
+C:\Users\Gabriel-PC\Documents\ProjetosVS\WebAgenda\WebAgenda.Domain\obj\Debug\netcoreapp3.1\WebAgenda.Domain.pdb

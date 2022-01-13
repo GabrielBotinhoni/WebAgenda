@@ -49,7 +49,7 @@ namespace WebAgenda.Data.Repositories
             sw.WriteLine(moment + " - Erro ao tentar salvar o LOGERROS no banco de dados");
             sw.WriteLine(moment + " - Erro \"Exception.Message\": " + ex.Message);
             sw.WriteLine(moment + " - Erro \"Exception.StackTrace\": " + ex.StackTrace);
-            sw.WriteLine(moment + " - Último erro ao tentar salvar \"Detalhes\": " + detalhes);
+            sw.WriteLine(moment + " - Último erro ao tentar salvar \"Detalhes\": " + details);
             sw.WriteLine(moment + " - Último erro ao tentar salvar \"Exception.Message\": " + exception.Message);
             sw.WriteLine(moment + " - Último erro ao tentar salvar \"Exception.StackTrace\": " + exception.StackTrace);
             sw.Close();
