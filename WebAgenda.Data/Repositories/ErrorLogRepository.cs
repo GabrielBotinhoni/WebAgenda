@@ -18,11 +18,11 @@ namespace WebAgenda.Data.Repositories
         }
 
 
-        public void SaveException(string detalhes, Exception exception)
+        public void SaveException(string details, Exception exception)
         {
             try
             {
-                ErrorLog erro = new ErrorLog(DateTime.Now, detalhes, exception.Message, exception.StackTrace);
+                ErrorLog erro = new ErrorLog(DateTime.Now, details, exception.Message, exception.StackTrace);
                 _contexto.ErrorLogs.Add(erro);
                 _contexto.SaveChanges();
             }
@@ -30,7 +30,7 @@ namespace WebAgenda.Data.Repositories
             {
                 // Salvar o log de erros caso o banco de dados não esteja conectando
                 string folder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-                string folderErrorLog = folder + @"\LogErros";
+                string folderErrorLog = folder + @"\WebAgenda\LogErros";
                 string moment = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
                 string momentFileName = DateTime.Now.ToString("yyyyMMdd_HHmmss");
                 string fileName = folderErrorLog + @"\" + momentFileName + "_LogErros";

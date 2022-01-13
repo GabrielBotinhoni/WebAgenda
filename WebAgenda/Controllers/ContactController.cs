@@ -76,6 +76,12 @@ namespace WebAgenda.Controllers
                 ModelState.AddModelError("", "Número de telefone inválido");
                 return View(model);
             }
+            if (!_contactRepository.validDate(model.BirthDate))
+            {
+                TempData["Danger"] = "Erro ao atualizar contato";
+                ModelState.AddModelError("", "Data de nascimento inválida");
+                return View(model);
+            }
             if (!ModelState.IsValid)
             {
                 TempData["Danger"] = "Erro ao atualizar contato";

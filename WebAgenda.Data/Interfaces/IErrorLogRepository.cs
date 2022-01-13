@@ -6,6 +6,6 @@ namespace WebAgenda.Data.Interfaces
 {
     public interface IErrorLogRepository
     {
-        void SaveException(string detalhes, Exception exception);
+        void SaveException(string details, Exception exception);
     }
 }
